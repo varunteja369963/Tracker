@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>https://www.sabiduria.in/index.php/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2019-05-21</lastmod>
+  </url>
+  <url>
+    <loc>https://sabiduria.in/tracker/Do-you-think-you-know-more-about-your-device-than-we-know/</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2019-05-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.sabiduria.in/index.php/loginform.html</loc>
+    <priority>0.89</priority>
+    <changefreq>yearly</changefreq>
+    <lastmod>2019-05-21</lastmod>
+  </url>
+</urlset>

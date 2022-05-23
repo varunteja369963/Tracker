@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - 10
+dist: trusty # needs Ubuntu Trusty
+sudo: required
+addons:
+  chrome: stable # have Travis install Chrome stable.
+cache:
+  yarn: true
+  directories:
+    - node_modules
+install:
+  - yarn
+script:
+  - yarn lint
+  - yarn gulp
+  - yarn test

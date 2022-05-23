@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.sabiduria.in/tracker/Do-you-think-you-know-more-about-your-device-than-we-know/ [NC]
+RewriteRule ^(.*)$ https://sabiduria.in/tracker/Do-you-think-you-know-more-about-your-device-than-we-know/$1 [L,R=301,NC]
+
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
+php_flag  log_errors on
+php_value error_log  /home/path/public_html/sabiduria.in/PHP_errors.log
+
+ErrorDocument 404 404.php
